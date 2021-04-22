@@ -238,4 +238,11 @@ text-align: $texto-tituloPrincipal;
 .modal1{
   margin-left: $margim-buton;
 }
+.footer__redes{
+  background-color:$negro;
+    display:flex;  
+    flex-direction:row; 
+    margin-left: 21%;
+    align-items:$texto-tituloPrincipal;
+}    
 }
