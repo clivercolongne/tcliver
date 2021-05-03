@@ -1,0 +1,227 @@
+@charset "UTF-8";
+.body {
+  background-color: #ff9999; }
+
+#cabecera {
+  background-color: blanchedalmond; }
+
+.color {
+  background-color: blanchedalmond; }
+
+.logoFondo {
+  background-color: #FFF2F2; }
+
+.logo {
+  margin-left: 41%; }
+
+.tituloPrincipal {
+  color: black;
+  text-align: center;
+  background-color: blanchedalmond;
+  margin-bottom: 0%;
+  animation-duration: 2s;
+  animation-name: aparecer; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.navbar-nav {
+  background-color: blanchedalmond; }
+
+.titulo {
+  text-align: center;
+  margin-bottom: 0%;
+  margin-top: 0%;
+  background-color: black;
+  color: white;
+  animation-duration: 3s;
+  animation-name: aparecer; }
+
+#boton {
+  background-color: black;
+  color: white; }
+
+#fondoPagina {
+  background-color: #ff9999;
+  margin-bottom: 0%;
+  margin-top: 3%; }
+
+.footer {
+  background: #ff9999;
+  background: linear-gradient(180deg, #ff9999 0%, black 40%);
+  text-align: center;
+  padding: 10px;
+  color: white; }
+
+.footer__fraseInspiradora {
+  text-align: center;
+  margin-top: 30px; }
+
+.footer__redes {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  margin-left: 45%;
+  align-items: center; }
+
+.imagen1 {
+  margin-top: 10px;
+  margin-right: 42%;
+  margin-bottom: 40px;
+  margin-left: 41.2%;
+  background-color: #ff9999; }
+
+.descripcion {
+  background-color: #FFF2F2;
+  width: 320px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin: 0%; }
+
+.elementos1 {
+  width: 320px;
+  background-color: #FFF2F2; }
+
+.imagenes1 {
+  background-color: #ff9999;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none; }
+
+.imagen-tamaño {
+  width: 300px; }
+
+.subtitulo {
+  text-align: center;
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  padding: 5px; }
+
+.subtitulo1 {
+  background-color: blanchedalmond;
+  margin-top: 20px;
+  padding: 5px;
+  text-align: center; }
+
+.relleno {
+  margin-bottom: 20%; }
+
+.formulario {
+  margin-left: 25%;
+  padding: 100px;
+  width: 50%;
+  background-color: blanchedalmond;
+  border: 1px solid black;
+  border-radius: 7px;
+  border-radius: 7px;
+  padding: 10px; }
+
+#boton1 {
+  background-color: black;
+  color: white;
+  margin-left: 110%;
+  margin-top: -64px;
+  width: 100px; }
+
+.parrafo {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  padding: 10px; }
+
+.parrafo1 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-bottom: 1%; }
+
+#modalImagenes {
+  background-color: blanchedalmond; }
+
+.modal1 {
+  margin-left: 75px; }
+
+.descripcion1 {
+  background-color: #FFF2F2;
+  width: 320px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin: 0%;
+  width: 300px; }
+
+.carusel {
+  width: 400px;
+  margin-left: 750px; }
+
+@media only screen and (max-width: 812px) and (min-width: 320px) {
+  .logo {
+    margin-left: 6%; }
+  .imagen1 {
+    margin-top: 10px;
+    margin-right: 42%;
+    margin-bottom: 12px;
+    margin-left: 3.5%; }
+  .imagenes1 {
+    background-color: #ff9999;
+    display: flex;
+    flex-direction: column;
+    margin-left: -5.4%;
+    justify-content: space-between; }
+  .descripcion {
+    background-color: #FFF2F2;
+    width: 320px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 0%; }
+  .descripcion1 {
+    background-color: #FFF2F2;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 4%;
+    margin-bottom: 0%; }
+  .elementos1 {
+    width: 320px;
+    background-color: #FFF2F2; }
+  .formulario {
+    margin-left: 1%;
+    padding: 100px;
+    width: 98%;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    border-radius: 7px;
+    border-radius: 7px;
+    padding: 10px; }
+  .mapa {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+    background-color: #ff9999;
+    padding: 10px;
+    width: 100%; }
+  .modal1 {
+    margin-left: 0%; }
+  .footer__redes {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    margin-left: 21%;
+    align-items: center; }
+  .carusel {
+    width: 350px;
+    margin-left: 10px; } }
